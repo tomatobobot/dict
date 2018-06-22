@@ -9,7 +9,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/fatih/color"
-	"github.com/tomatobobot/bingdict/db"
+	"github.com/tomatobobot/dict/db"
 )
 
 const (
