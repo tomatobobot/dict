@@ -10,6 +10,9 @@ matrix:
 
 install:
   - echo "This is an override of the default install deps step in travis."
-
+before_script:
+  - go get -u github.com/fatih/color
+  - go get -u github.com/PuerkitoBio/goquery
+  - go get -u github.com/boltdb/bolt/...
 script:
   - go build
